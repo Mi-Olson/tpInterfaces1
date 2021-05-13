@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    position: absolute;
+	height:100%;
+	width: 100%;
+	overflow: hidden;
+        
+
+}
+label{
+	width: 220px;border-color:#926b11;
+	border-width:1px;
+	border-style:solid;
+	background:#F5F5F5;
+	font-family:"Courier New",monospace;
+	font-size:16px;
+	color:#926b11;
+}
+input{
+    
+        width: 220px;border-color:#926b11;
+        border-width:1px;
+        border-style:solid;
+        background:#F5F5F5;
+        font-family:"Courier New",monospace;
+        font-size:16px;
+        color:#926b11;
+  
+}
