@@ -40,8 +40,8 @@ h2{
 	margin-top: 50px;
 	margin-left: 20px;
 }
-.formulario{
-	width: 220px;border-color:#dad8d3;
+/*.formulario{
+	width: 200px;border-color:#dad8d3;
 	border-width:1px;
 	border-style:solid;
 	background:#232422;
@@ -49,13 +49,13 @@ h2{
 	font-size:16px;
 	color:#c4c1bc;
 
-}
- label{
+}*/
+label{
 	padding-right: 5px;
 }
 input{
     
-	width: 220px;border-color:#83827e;
+	width: 200px;border-color:#83827e;
 	
         border-width:1px;
         border-style:solid;
@@ -72,18 +72,27 @@ input{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.botonControlUsuario{
+.buttonCondicion{
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+
+}
+.seccionBotones{
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 
 }
 .imgPrimeraPag{
 	height: 300px;
 	width: 300px;
 	margin-left: 40px;
-	margin-right: 200px;
+	margin-right: 60px;
 	border-color:#83827e;
     border-width:3px;
     border-style:solid;
@@ -98,8 +107,21 @@ footer{
 	margin-top: 100px;
 
 }
-button{
-		width: 220px;
+.button1Pag{
+	width: 220px;
+		border-color:#83827e;
+        border-width:1px;
+        border-style:solid;
+        background:#4928289a;
+        font-family:"Courier New",monospace;
+        font-size:16px;
+		color: rgba(163, 160, 154, 0.671);
+    
+		margin-left: 300px;
+		margin-bottom: 100px;
+}
+.button2Pag{
+	width: 220px;
 		border-color:#83827e;
         border-width:1px;
         border-style:solid;
@@ -110,10 +132,7 @@ button{
     
 		margin-left: 300px;
 }
-button a{
-	font-size:16px;
-	color: rgba(163, 160, 154, 0.671);
-}
+
 		/*todo dentro de listas*/
 
 
