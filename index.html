@@ -9,24 +9,36 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="encabezado">
-      <h1>Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</h1>
+   
+      <h1 class="encabezado">Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</h1>
       <h2>servicio digital de descuento de medicamentos </h2>
       <p></p>
 
-    </div>
+    
     <div class="contenedorCentral"> 
       <img class="imgPrimeraPag" src="imagen\58.jpg">
  
    
 	    <form action="https://formspree.io/f/mnqlpdyk" id="formulario1" method="POST" >
-		  	<label for="login usuario">USUARIO :</label><input type="number" id="usuario" name="usuario" placeholder="ingrese dni" required><br>
-			
+        <section class="cadaInput">
+          
+		  	  <label for="login usuario">USUARIO :</label><input type="text" id="ingresoUsuario" name="usuario" placeholder="ingrese dni" required>
+         
+          <!-- /*Boton control usuario*/ -->
+         <button id="botonControlUsuario">ingreso usuario </button><br>
+         
+        </section>
+        <section class="cadaInput">
+		  	  <label for="password">Password :</label><input type="password" id="ingresoPassword" name="password" placeholder="********"required>
+        
+          <!--boton control contraseña -->
+          <button  id="botonControlPassword">ingreso Password </button><br>
 
-		  	<label for="password">Password :</label><input type="pa" id="password" name="password" placeholder="********"required><br>
+        </section>  
+				<section class="cadaInput">
+			    <label for="submit">Enviar </label><input type="submit" >
+        </section>
 
-					
-			  <label for="submit">Confirmacionde datos </label><input type="submit" >
       </form>    
       
     </div>        
