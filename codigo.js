@@ -3,9 +3,9 @@
     var valor=controlPassword.value;
     
 
-    if (valor < 5) {
+    /*if (valor < 5) {
      return alert("la clave no es la correcta");   
-    }
+    }*/
 
     
      

@@ -58,7 +58,7 @@ input{
         color:#926b11;
   
 }
-img{
+.imgPrimeraPag{
 	height: 300px;
 	width: 300px;
 	margin-left: 40px;
@@ -75,4 +75,16 @@ button{
         color:#e2ddd8;
 		margin-left: 300px;
 
+}
+.imgSegundaPag{
+	height: 150px;
+	width: 200px;
+	margin-left: 40px;
+	margin-right: 100px;
+
+}
+li{
+	display: flex;
+	padding-bottom: 5px;
+	
 }
