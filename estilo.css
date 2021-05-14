@@ -66,10 +66,10 @@ input{
 	/* right: auto; */
 }
 button{
-	width: 220px;border-color:#1b1a16;
+	width: 220px;border-color:#83827e;
         border-width:1px;
         border-style:solid;
-        background:#161616;
+        background:#3a3131;
         font-family:"Courier New",monospace;
         font-size:16px;
         color:#e2ddd8;
@@ -77,8 +77,8 @@ button{
 
 }
 .imgSegundaPag{
-	height: 150px;
-	width: 200px;
+	height: 130px;
+	width: 300px;
 	margin-left: 40px;
 	margin-right: 100px;
 
