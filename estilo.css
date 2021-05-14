@@ -4,8 +4,39 @@ body {
 	height:100%;
 	width: 100%;
 	overflow: hidden;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color: rgb(80, 75, 67);
         
 
+}
+.encabezado{
+	width: 100%;
+	height: 80px;
+	margin-top: 0px;
+
+	background-color: cornflowerblue;
+}
+h1{
+    text-align: center;
+	
+	font-size: 30px;
+}
+h2{
+	 
+	text-align: center;
+	font-size: 15px;
+}
+footer{
+	width: 100%;
+	height: 80px;
+	background-color: cornflowerblue;
+	margin-top: 100px;
+
+}
+.contenedorCentral{
+	display: flex;
+	margin-top: 50px;
+	margin-left: 20px;
 }
 label{
 	width: 220px;border-color:#926b11;
@@ -26,4 +57,22 @@ input{
         font-size:16px;
         color:#926b11;
   
+}
+img{
+	height: 300px;
+	width: 300px;
+	margin-left: 40px;
+	margin-right: 100px;
+	/* right: auto; */
+}
+button{
+	width: 220px;border-color:#1b1a16;
+        border-width:1px;
+        border-style:solid;
+        background:#161616;
+        font-family:"Courier New",monospace;
+        font-size:16px;
+        color:#e2ddd8;
+		margin-left: 300px;
+
 }
