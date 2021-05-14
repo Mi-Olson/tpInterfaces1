@@ -40,16 +40,7 @@ h2{
 	margin-top: 50px;
 	margin-left: 20px;
 }
-/*.formulario{
-	width: 200px;border-color:#dad8d3;
-	border-width:1px;
-	border-style:solid;
-	background:#232422;
-	font-family:"Courier New",monospace;
-	font-size:16px;
-	color:#c4c1bc;
 
-}*/
 label{
 	padding-right: 5px;
 }
@@ -78,6 +69,8 @@ input{
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: left;
+	color: aqua;
+	background:#8b84846e;
 
 }
 .seccionBotones{
@@ -109,14 +102,14 @@ footer{
 }
 .button1Pag{
 	width: 220px;
-		border-color:#83827e;
+		border-color:#d3d1cc;
         border-width:1px;
         border-style:solid;
-        background:#4928289a;
+       
         font-family:"Courier New",monospace;
         font-size:16px;
 		color: rgba(163, 160, 154, 0.671);
-    
+		background:#8b84846e;
 		margin-left: 300px;
 		margin-bottom: 100px;
 }
@@ -125,12 +118,18 @@ footer{
 		border-color:#83827e;
         border-width:1px;
         border-style:solid;
-        background:#4928289a;
+        background:#8b84846e;
         font-family:"Courier New",monospace;
         font-size:16px;
 		color: rgba(163, 160, 154, 0.671);
     
 		margin-left: 300px;
+}
+.textobutton{
+	font-family:"Courier New",monospace;
+        font-size:16px;
+		color: aqua;
+
 }
 
 		/*todo dentro de listas*/
