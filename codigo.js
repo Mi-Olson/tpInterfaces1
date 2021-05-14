@@ -1,5 +1,6 @@
 (function(){
 
+
     document.getElementById("botonControlUsuario").addEventListener("click",function(){
         var palabra=document.getElementById("ingresoUsuario");    
         
@@ -9,6 +10,7 @@
      
      
      });   
+     
 
  
 
