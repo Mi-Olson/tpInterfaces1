@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-   
+    <div class="encabezado">
       <h1 class="encabezado">Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</h1>
+    </div>  
       <h2>servicio digital de descuento de medicamentos </h2>
       <p></p>
+  
 
     
     <div class="contenedorCentral"> 
@@ -23,14 +25,14 @@
 	    <form action="https://formspree.io/f/mnqlpdyk" id="formulario1" method="POST" >
         <section class="cadaInput">
           
-		  	  <label for="login usuario">USUARIO :</label><input type="number" id="ingresoUsuario" name="usuario" placeholder="ingrese dni" required>
-         
+		  	  <label for="login usuario">USUARIO :<input type="number" id="ingresoUsuario" name="usuario" placeholder="ingrese dni"  required>
+          </label><button class="buttonCondicion"  id="botonControlUsuario">ingreso usuario </button><br>
          
          
         </section>
         <section class="cadaInput">
-		  	  <label for="password">Password :</label><input type="password" id="ingresoPassword" name="password" placeholder="********"required>
-                
+		  	  <label for="password">Password :<input type="password" id="ingresoPassword" name="password" placeholder="********"required>
+          </label>    <button  class="buttonCondicion"   id="botonControlPassword">ingreso Password </button><br>   
 
         </section>  
 
@@ -39,19 +41,10 @@
         </section>
       </form>  
 
-      <section class="seccionBotones">
-         <!-- /*Boton control usuario*/ -->
-         <button class="buttonCondicion"  id="botonControlUsuario">ingreso usuario </button><br>
-     
-
-        <!--boton control contraseña -->
-     
-        <button  class="buttonCondicion"   id="botonControlPassword">ingreso Password </button><br>
-       
-      </section>  
+      
     </div>        
     <footer>
-      <button class="button1Pag"> <a class="textobutton" href="index2.html">INGRESO A PAGINA PRINCIPAL></a></button>
+      <button class="button1Pag"> <a class="textobutton" href="index2.html">A PAGINA PRINCIPAL></a></button>
     </footer>   
       <script type="text/javascript" src="codigo.js"> </script>
 </body>

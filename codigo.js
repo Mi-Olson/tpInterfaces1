@@ -1,4 +1,8 @@
-(function(){
+var usu=document.getElementById("ingresoUsuario").value;  
+var dondeColocar=document.getElementById("apareceUsuario");
+var dondeColocar=document.createTextNode(usu);
+
+// (function(){
 
 
     document.getElementById("botonControlUsuario").addEventListener("click",function(){
@@ -7,11 +11,9 @@
         var pal=palabra.typeOff;
        
         if (pal == text){alert("error debe ingresar solo numeros");}
-     
-     
+        
      });   
-     
-
+    
  
 
 document.getElementById("botonControlPassword").addEventListener("click",function(){
@@ -24,31 +26,14 @@ document.getElementById("botonControlPassword").addEventListener("click",functio
 
 });
 
-  
-/*id="botonControlUsuario"id="botonControlPassword"*/
+ 
+// }());
+/* var body=document.querySelector("#body");
+ var parrafoNuevo= document.createElement("p");
+ var contenidoParrafo=document.createTextNode("BEEP");
+ parrafoNuevo.appendChild(contenidoParrafo);
 
+ //body.insertAdjacentHTML("beforeend",parrafobutton);
+ body.appendChild(parrafoNuevo); */
 
-   
-
-
-}());/*
-(function(){
-    var body=document.querySelector("#body");
-    
-    
-    
-    document.getElementById('button').addEventListener("click", function(){
-     
-     var parrafoNuevo= document.createElement("p");
-     var contenidoParrafo=document.createTextNode("BEEP");
-     parrafoNuevo.appendChild(contenidoParrafo);
-    
-     //body.insertAdjacentHTML("beforeend",parrafobutton);
-     body.appendChild(parrafoNuevo);
-        
-     body.classList.toggle("color");
-     
-     
-     }	);*/
-     
     
