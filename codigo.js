@@ -1,39 +1,54 @@
-var usu=document.getElementById("ingresoUsuario").value;  
-var dondeColocar=document.getElementById("apareceUsuario");
-var dondeColocar=document.createTextNode(usu);
+
+
+
 
 // (function(){
 
-
-    document.getElementById("botonControlUsuario").addEventListener("click",function(){
-        var palabra=document.getElementById("ingresoUsuario");    
-        
-        var pal=palabra.typeOff;
+     var elemento= document.getElementById("usuario");
+    
+     elemento.addEventListener("click",function(){
+       var contenedorUsuario=document.getElementById("usuariocontrol"); 
+     
        
-        if (pal == text){alert("error debe ingresar solo numeros");}
-        
+       contenedorUsuario.className='cadaInput';
+       
+       contenedorUsuario.innerText="ingresa de DNI";
+       
+
+       
      });   
     
  
+    var paswordIngreso=document.getElementById("ingresoPassword");
+    paswordIngreso.addEventListener("click",function(){
 
-document.getElementById("botonControlPassword").addEventListener("click",function(){
-   var palabra=document.getElementById("ingresoPassword");    
-   
-   var pal=palabra.value;
-   var cant=pal.length;
-   if (cant<5){alert("error debe ingresar mas e 4 digitos");}
+         var contenedorPasword=document.getElementById("paswordcontrol");    
+         contenedorPasword.className='cadaInput';
+         contenedorPasword.innerText="ingrese password";
+         var pal= paswordIngreso.value;
+         var cant=pal.length;
+         if (cant<5){alert("error debe ingresar mas e 4 digitos");}
 
 
 });
 
+
+function colocarNombre() {
+
+  var elemento2 = document.getElementById("usuario");
+  var contenidoNombre = elemento2.value;
+  var algo = document.querySelector("#apareceUsuario");
+  console.log(contenidoNombre);
+
+//  algo.innerHTML='<p>${contenidoNombre}</p>'
+
+ algo.innerHTML=contenidoNombre;
+}
+
+
  
-// }());
-/* var body=document.querySelector("#body");
- var parrafoNuevo= document.createElement("p");
- var contenidoParrafo=document.createTextNode("BEEP");
- parrafoNuevo.appendChild(contenidoParrafo);
 
  //body.insertAdjacentHTML("beforeend",parrafobutton);
- body.appendChild(parrafoNuevo); */
+ 
 
     

@@ -9,43 +9,101 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="encabezado">
-      <h1 class="encabezado">Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</h1>
-    </div>  
-      <h2>SERVIVIO DIGITAL DE DESCUENO DE MEDICAMENTOS </h2>
+  <div class="inicio">
+    <a name="1Hoja" ></a>
+     <header  class="encabezado">
+     
+         <h1 class="encabezado">Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</h1>
+         
+         <h2>SERVICIO DIGITAL DE DESCUENTO DE MEDICAMENTOS </h2>
+      </header>
     
-  
 
     
-    <div class="contenedorCentral"> 
+      <div class="contenedorCentral"> 
       <!-- <img class="imgPrimeraPag" src="imagen\58.jpg"> -->
-      <img class="imgPrimeraPag" src="imagen\2.jpg">
+         <img class="imgPrimeraPag" src="imagen\2.jpg">
  
    
-	    <form action="https://formspree.io/f/mnqlpdyk" id="formulario1" method="POST" >
-        <section class="cadaInput">
+	      <form action="https://formspree.io/f/mnqlpdyk" id="formulario1" method="POST" >
+
+             <section class="cadaInput">
+                  <div class="hover" id="usuariocontrol"></div>
+
           
-		  	  <label for="login usuario">USUARIO :<input type="number" id="ingresoUsuario" name="usuario" placeholder="ingrese dni"  required>
-          </label><button class="buttonCondicion"  id="botonControlUsuario">ingreso usuario </button><br>
+		  	          <input type="number" id="usuario" name="usuario" placeholder="ingrese dni"  required>
+                 
+              </section>
+              <section class="cadaInput">
+                  <div class="hover" id="paswordcontrol"></div>
          
-         
-        </section>
-        <section class="cadaInput">
-		  	  <label for="password">Password :<input type="password" id="ingresoPassword" name="password" placeholder="********"required>
-          </label>    <button  class="buttonCondicion"   id="botonControlPassword">ingreso Password </button><br>   
+		  	          <input type="password" id="ingresoPassword" name="password" placeholder="ingrese pasword"required>
+             
+              </section>  
 
-        </section>  
+				      <section class="cadaInput">
 
-				<section class="cadaInput">
-			    <label for="submit">Confirmar </label><input type="submit" >
-        </section>
+			         
+               <input type="submit" id="carga" name="submit" >
+
+              
+
+              </section>
       </form>  
 
       
-    </div>        
-    <footer>
-      <button class="button1Pag"> <a class="textobutton" href="index2.html">A PAGINA PRINCIPAL></a></button>
-    </footer>   
-      <script type="text/javascript" src="codigo.js"> </script>
+     </div>        
+      <footer>
+
+     <!-- // <button class="button1Pag" id="colocarNombre"> <a class="textobutton" href="index2.html">A PAGINA PRINCIPAL></a></button> -->
+     <div   class="textobutton" onclick="colocarNombre()">    
+     <a class="textobutton"  href="#paginaPrincipal">A PAGINA PRINCIPAL></a></div>
+      </footer>  
+  </div>
+
+  <!--// empieza la otra paginaPrincipal-->
+ 
+    <div  class="body" id="body">
+      <a name="paginaPrincipal"></a>
+     
+      <header class="inicio" >
+      
+        <ul class="encabezado2" id="encabezado">
+            <li class="h2SegundaPag">DESCUENTO</li>
+            <li class="h2SegundaPag" >DIRECCION</li>
+            <li class="h2SegundaPag"> USUARIO :</li>
+            <li class="h2SegundaPag"  id="apareceUsuario" > algo</li>
+       </ul> 
+          
+        
+  
+      
+    </header>
+      <div class="segundoContenedor" > 
+        <ul >
+          <li class="lista"><img class="imgSegundaPag" src="imagen\40.jpg">
+            <section>
+            <p>Farmacia las Acacias<p>Los Aromos 15, Ciudad Jardin </p></section>
+          </li>
+          <li class="lista"><img class="imgSegundaPag" src="imagen\40.jpg"><section>
+            <p>Farmacia las Acacias<p>Los Aromos 15, Ciudad Jardin </p></section>
+          </li>
+          <li class="lista"><img class="imgSegundaPag" src="imagen\40.jpg"><section>
+            <p>Farmacia las Acacias<p>Los Aromos 15, Ciudad Jardin </p></section>
+          </li>
+        </ul>
+     
+         
+        
+      </div>        
+      <footer class="footer2">
+  
+         <a class="textobutton" href="#1Hoja">SALIR></a>
+       
+        
+      </footer>   
+    <script type="text/javascript" src="codigo.js"></script> 
+     
+</div>
 </body>
 </html>
