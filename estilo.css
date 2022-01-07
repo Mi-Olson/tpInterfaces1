@@ -77,11 +77,12 @@ input{
 	padding-bottom: 10px;
 }
 .encabezado2{
-	/* display: flex; */
-	position: relative;
-	display: flex;
+	 display: flex; 
+	justify-content: center;
+	/* position: relative; */
+	
 	align-items: center;
-	justify-content:space-between;
+	/* justify-content:space-between; */
 	/* position:absolute; */
 	margin-top: 0px;
 	list-style: none;
@@ -95,10 +96,10 @@ input{
 	/* padding-left: 230px; */
     text-align: center;
 	padding: auto;
-	border:solid 2px blue ;
-	background-color: aqua;
+	/* border:solid 2px blue ;
+	background-color: aqua; */
 	font-size: 15px;
-	margin-left: 10px;
+	/* margin-left: 10px; */
 	margin-right: 10px;
 	width: 150px;
 	height: 30px;
@@ -106,7 +107,7 @@ input{
 	margin-right: 30px; */
 
 }
-.buttonCondicion{
+/* .buttonCondicion{
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-top: 5px;
@@ -115,15 +116,15 @@ input{
 	color: aqua;
 	background:#8b84846e;
 
-}
-.seccionBotones{
+} */
+/* .seccionBotones{
 	margin-left: 5px;
 	padding-left: 5px;
 	padding-right: 5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 
-}
+} */
 .imgPrimeraPag{
 	height: 300px;
 	width: 300px;
@@ -148,7 +149,7 @@ footer{
 
 
 }
-.button1Pag{
+/* .button1Pag{
 	width: 220px;
 	height: 40px;
 	padding: 5px;
@@ -161,8 +162,8 @@ footer{
 		color: rgba(163, 160, 154, 0.671);
 		background:#8b84846e;
 		
-}
-.button2Pag{
+} */
+/* .button2Pag{
 	width: 220px;
 		border-color:#83827e;
         border-width:1px;
@@ -173,7 +174,7 @@ footer{
 		color: rgba(163, 160, 154, 0.671);
     
 		margin-left: 300px;
-}
+} */
 .textobutton{
 	font-family:"Courier New",monospace;
         font-size:16px;

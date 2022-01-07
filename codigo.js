@@ -25,9 +25,9 @@
          var contenedorPasword=document.getElementById("paswordcontrol");    
          contenedorPasword.className='cadaInput';
          contenedorPasword.innerText="ingrese password";
-         var pal= paswordIngreso.value;
-         var cant=pal.length;
-         if (cant<5){alert("error debe ingresar mas e 4 digitos");}
+        //  var pal= paswordIngreso.value;
+        //  var cant=pal.length;
+        //  if (cant<5){alert("error debe ingresar mas e 4 digitos");}
 
 
 });
