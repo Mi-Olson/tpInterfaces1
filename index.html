@@ -9,101 +9,106 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-  <div class="inicio">
+  <div class="contenedorPrimero">
     <a name="1Hoja" ></a>
-     <header  class="encabezado">
-     
-         <h1 class="encabezado">Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</h1>
-         
-         <h2>SERVICIO DIGITAL DE DESCUENTO DE MEDICAMENTOS </h2>
-      </header>
+    <div class="inicio" id="inicio">
+        
+        <header >
+        
+            <h1 class="encabezado">Ministerio de Salud de la Ciudad Autónoma de Buenos Aires</h1>
+            
+            <h2>SERVICIO DIGITAL DE DESCUENTO DE MEDICAMENTOS </h2>
+          </header>
+        
+
+        
+          <div class="contenedorCentral"> 
+          <!-- <img class="imgPrimeraPag" src="imagen\58.jpg"> -->
+            <img class="imgPrimeraPag" src="imagen\2.jpg">
     
+      
+            <form action="https://formspree.io/f/mnqlpdyk" id="formulario1" method="POST" target="_blank" >
 
-    
-      <div class="contenedorCentral"> 
-      <!-- <img class="imgPrimeraPag" src="imagen\58.jpg"> -->
-         <img class="imgPrimeraPag" src="imagen\2.jpg">
- 
-   
-	      <form action="https://formspree.io/f/mnqlpdyk" id="formulario1" method="POST" target="_blank" >
-
-             <section class="cadaInput">
-                  <div class="hover" id="usuariocontrol"></div>
-
-          
-		  	          <input type="number" id="usuario" name="usuario" placeholder="ingrese dni"  required>
-                 
-              </section>
-              <section class="cadaInput">
-                  <div class="hover" id="paswordcontrol"></div>
-         
-		  	          <input type="password" id="ingresoPassword" name="password" maxlength="6" minlength="5" placeholder="ingrese pasword"required>
-             
-              </section>  
-
-				      <section class="cadaInput">
-
-			         
-               <input type="submit" id="carga" name="submit" >
+                <section class="cadaInput">
+                      <div class="hover" id="usuariocontrol"></div>
 
               
+                      <input type="number" id="usuario" name="usuario" placeholder="ingrese dni"  required>
+                    
+                  </section>
+                  <section class="cadaInput">
+                      <div class="hover" id="paswordcontrol"></div>
+            
+                      <input type="password" id="ingresoPassword" name="password" maxlength="6" minlength="5" placeholder="ingrese pasword"required>
+                
+                  </section>  
 
-              </section>
-      </form>  
+                  <section class="cadaInput">
 
-      
-     </div>        
-      <footer>
+                  
+                  <input type="submit" id="carga" name="submit" >
 
-     
-     <div   class="textobutton" onclick="colocarNombre()">    
-     <a class="textobutton"  href="#paginaPrincipal">A PAGINA PRINCIPAL></a></div>
-      </footer>  
-  </div>
+                  
 
-  <!--// empieza la otra paginaPrincipal-->
- 
-    <div  class="body" id="body">
-      <a name="paginaPrincipal"></a>
-     
-      <header class="inicio" >
-      
-        <ul class="encabezado2" id="encabezado">
-            <li class="h2SegundaPag">DESCUENTO</li>
-            <li class="h2SegundaPag" >DIRECCION</li>
-            <li class="h2SegundaPag"> USUARIO :</li>
-            <li class="h2SegundaPag"  id="apareceUsuario" > algo</li>
-       </ul> 
+                  </section>
+          </form>  
+
           
+        </div>        
+          <footer class="footer1">
+
         
+            <div   class="textobutton" onclick="colocarNombre()">    
+            <a class="textobutton"  href="#paginaPrincipal">A PAGINA PRINCIPAL></a>
+            </div>
+          </footer>  
+    </div>
+
+    <!--// empieza la otra paginaPrincipal-->
   
+    <div  class="body" id="body">
+        
+        <header  >
+          <a name="paginaPrincipal"></a>
       
-    </header>
-      <div class="segundoContenedor" > 
-        <ul >
-          <li class="lista"><img class="imgSegundaPag" src="imagen\40.jpg">
-            <section>
-            <p>Farmacia las Acacias<p>Los Aromos 15, Ciudad Jardin </p></section>
-          </li>
-          <li class="lista"><img class="imgSegundaPag" src="imagen\40.jpg"><section>
-            <p>Farmacia las Acacias<p>Los Aromos 15, Ciudad Jardin </p></section>
-          </li>
-          <li class="lista"><img class="imgSegundaPag" src="imagen\40.jpg"><section>
-            <p>Farmacia las Acacias<p>Los Aromos 15, Ciudad Jardin </p></section>
-          </li>
-        </ul>
-     
+          <ul class="encabezado2" id="encabezado">
+              <li class="h2SegundaPag">DESCUENTO</li>
+              <li class="h2SegundaPag" >DIRECCION</li>
+            
+              <li class="h2SegundaPag"  id="apareceUsuario" > USUARIO : </li>
+          </ul> 
+                       
+        </header>
+
+        <div class="segundoContenedor" > 
+          <ul >
+            <li class="lista"><img class="imgSegundaPag" src="imagen\40.jpg">
+              <section>
+              <p>Farmacia las Acacias<p>Los Aromos 15, Ciudad Jardin </p></section>
+            </li>
+            <li class="lista"><img class="imgSegundaPag" src="imagen\40.jpg"><section>
+              <p>Farmacia las Acacias<p>Los Aromos 15, Ciudad Jardin </p></section>
+            </li>
+            <li class="lista"><img class="imgSegundaPag" src="imagen\40.jpg"><section>
+              <p>Farmacia las Acacias<p>Los Aromos 15, Ciudad Jardin </p></section>
+            </li>
+          </ul>
+                 
+        </div>   
+
+        <footer class="footer2">
+          <div   class="textobutton" onclick="colocarNombre()">    
+            <a class="textobutton" href="#1Hoja">SALIR></a>
+            </div>
+    
          
         
-      </div>        
-      <footer class="footer2">
-  
-         <a class="textobutton" href="#1Hoja">SALIR></a>
-       
-        
-      </footer>   
-    <script type="text/javascript" src="codigo.js"></script> 
-     
+          
+        </footer>   
+      
+      
+  </div>
 </div>
+<script type="text/javascript" src="codigo.js"></script> 
 </body>
 </html>

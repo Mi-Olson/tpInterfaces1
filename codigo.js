@@ -34,6 +34,9 @@
 
 
 function colocarNombre() {
+  var cambiarClaseInicio=document.getElementById("inicio");
+  // cambiarClaseInicio.className='ocultar';
+  cambiarClaseInicio.classList.toggle('ocultar');
 
   var elemento2 = document.getElementById("usuario");
   var contenidoNombre = elemento2.value;
@@ -42,7 +45,7 @@ function colocarNombre() {
 
 //  algo.innerHTML='<p>${contenidoNombre}</p>'
 
- algo.innerHTML=contenidoNombre;
+ algo.innerHTML=`USUARIO : ${contenidoNombre}`;
 }
 
 
